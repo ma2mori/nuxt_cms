@@ -47,3 +47,16 @@ export default {
   },
 };
 </script>
+
+<style lang="scss">
+.latest-posts{
+  padding: 10px;
+  box-sizing: border-box;
+  .posts{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+}
+</style>
