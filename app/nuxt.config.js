@@ -3,6 +3,10 @@ const client = require("./plugins/contentful")
 
 module.exports = {
 
+  css:[
+    '@/assets/css/common.css',
+  ],
+
   server: {
     port: 9000,
     host: '0.0.0.0'
