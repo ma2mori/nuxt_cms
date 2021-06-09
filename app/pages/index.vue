@@ -33,9 +33,6 @@ export default {
       })
       .catch((e) => console.log(e));
   },
-  head: {
-    title: "記事一覧",
-  },
   methods: {
     formatDate(iso) {
       const date = new Date(iso);

@@ -48,14 +48,17 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'app',
+    title: 'Tech-Memorandam',
+    titleTemplate:'%s',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Nuxt.js project' }
+      { hid: 'description', name: 'description', content: 'This is mainly a summary of what I have learned about the web. I am Japanese, so please forgive me if there are some poor sentences.' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'shortcut icon', size:'196x196', href:'/favicon.ico'},
+      { rel: 'apple-touch-icon', href:'/favicon.ico'},
     ]
   },
   /*
