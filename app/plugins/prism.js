@@ -1,4 +1,4 @@
 import Prism from 'prismjs'
-import 'prismjs/thmes/prism-okaidia.css'
+import 'prismjs/themes/prism-okaidia.css'
 
 export default Prism
