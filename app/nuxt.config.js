@@ -13,7 +13,8 @@ module.exports = {
   },
 
   plugins: [
-    '~/plugins/contentful'
+    '~/plugins/contentful',
+    '~/plugins/prism',
   ],
   modules: [
     '@nuxtjs/dotenv',

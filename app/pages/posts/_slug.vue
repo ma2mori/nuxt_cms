@@ -41,7 +41,7 @@ export default {
     }
   },
   mounted() {
-    console.log(this.post)
+    Prism.highlightAll()
   },
   methods: {
     formatDate(iso) {
