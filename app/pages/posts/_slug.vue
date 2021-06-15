@@ -3,7 +3,7 @@
     <div class="single">
       <h1 class="post-title">{{ post.fields.title }}</h1>
       <p class="post-created-at">{{ formatDate(post.sys.createdAt) }}</p>
-      <div class="post-content" v-html="$md.render(post.fields.content)"></div>
+      <div class="post-content line-numbers" v-html="$md.render(post.fields.content)"></div>
     </div>
   </article>
 </template>
